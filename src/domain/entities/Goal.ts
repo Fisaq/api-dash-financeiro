@@ -1,5 +1,5 @@
 export default class Goal {
-    public id: string;
+    public readonly id: string;
     public userId: string;
     public name: string;
     public targetAmount: number;

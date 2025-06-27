@@ -1,7 +1,7 @@
 import Email from '../shared/types/Email';
 
 export default class User{
-    public userId: string;
+    public readonly userId: string;
     public name: string;
     public email: Email;
     public paswordHashed: string;

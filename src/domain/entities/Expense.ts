@@ -1,5 +1,5 @@
 export default class Expense {
-    public id: string;
+    public readonly id: string;
     public userId: string;
     public amount: number;
     public description: string;

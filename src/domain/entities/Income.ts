@@ -1,7 +1,7 @@
 import { EIncomeType } from "../shared/enums/EIncomeType";
 
 export default class Income {
-    public id: string;
+    public readonly id: string;
     public userId: string;
     public amount: number;
     public date: Date;

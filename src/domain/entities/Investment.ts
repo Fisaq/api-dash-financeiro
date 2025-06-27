@@ -1,5 +1,5 @@
 export default class Investiment{
-    public id: string;
+    public readonly id: string;
     public userId: string;
     public name: string;
     public initialAmount: number;
