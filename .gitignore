@@ -1,5 +1,12 @@
 # Node modules
 node_modules/
+dist
+
+
+# Configurações
+*.config.*
+*.json
+
 
 # Diretório de saída do TypeScript
 dist/
@@ -17,6 +24,7 @@ coverage/
 # Ambiente
 .env
 .env.*
+@prisma/client
 
 # Sistema operacional
 .DS_Store
